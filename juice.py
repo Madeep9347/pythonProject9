@@ -35,6 +35,11 @@ class Jui:
         x = int(input("enter quantity of orange"))
         print("your order quantity for orange is:",x)
         self.total_cost += 40 * x
+    def musambi(self):
+        x = int(input("enter quantity of musambi"))
+        print("your order quantity for musambi is:",x)
+        self.total_cost += 40 * x
+        
 
 
 
