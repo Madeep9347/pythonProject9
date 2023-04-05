@@ -4,7 +4,7 @@ class Jui:
 
     def Menu(self):
         while(True):
-            print("1.Mango:20 \n 2.lemon:30\n3.orange:40")
+            print("1.Mango:20 \n 2.lemon:30\n3.orange:40\n4.musambi")
             n=int(input("enter the menu"))
             match n:
                 case 1:
@@ -17,6 +17,9 @@ class Jui:
                     print("you entered orange")
                     self.orange()
                 case 4:
+                    print("you entered musambi")
+                    self.musambi()
+                case 5:
                     print(f'the total cost is {self.total_cost}')
                     exit()
 
